@@ -36,3 +36,6 @@ A modern, fully responsive personal portfolio website built with **HTML5**, **CS
 ---
 
 ## 📁 Folder Structure
+
+<img width="1304" height="908" alt="image" src="https://github.com/user-attachments/assets/1faaa8f4-1828-400b-8bd6-0f08941d0e27" />
+
