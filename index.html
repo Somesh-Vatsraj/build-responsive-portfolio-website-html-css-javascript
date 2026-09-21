@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Sharma | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="logo">
+                <span>&lt;</span>Rahul<span>/&gt;</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greet reveal">👋 Hello, I'm</p>
+                <h1 class="hero-title reveal">
+                    Rahul <span class="gradient-text">Sharma</span>
+                </h1>
+                <h2 class="hero-subtitle reveal">
+                    I'm a <span class="typed-text" id="typedText"></span>
+                </h2>
+                <p class="hero-desc reveal">
+                    A passionate developer crafting beautiful, responsive and
+                    user-friendly websites that bring ideas to life on the web.
+                </p>
+
+                <div class="hero-btns reveal">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+
+                <div class="hero-socials reveal">
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image reveal">
+                <div class="image-wrapper">
+                    <div class="blob"></div>
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80" alt="Profile" />
+                </div>
+                <div class="floating-card card-1">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Clean Code</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>Fast Performance</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-down">
+            <span>Scroll</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-tag">Get to know</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80" alt="Working" />
+                    <div class="about-exp">
+                        <h3>3+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <h3>A passionate Frontend Developer based in India 📍</h3>
+                    <p>
+                        I specialize in building modern, responsive and performant web
+                        applications using the latest technologies. I love turning complex
+                        problems into simple, beautiful and intuitive designs.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h4>30+</h4>
+                            <p>Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>3+</h4>
+                            <p>Years</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary">
+                        Download CV <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-tag">What I know</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-html5" style="color:#e34c26"></i>
+                    <h4>HTML5</h4>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="95%"></div>
+                    </div>
+                    <span>95%</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-css3-alt" style="color:#264de4"></i>
+                    <h4>CSS3</h4>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="90%"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-js" style="color:#f0db4f"></i>
+                    <h4>JavaScript</h4>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="85%"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-react" style="color:#61dafb"></i>
+                    <h4>React</h4>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="80%"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-node-js" style="color:#68a063"></i>
+                    <h4>Node.js</h4>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="75%"></div>
+                    </div>
+                    <span>75%</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-figma" style="color:#a259ff"></i>
+                    <h4>Figma</h4>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="88%"></div>
+                    </div>
+                    <span>88%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-tag">Recent work</span>
+                <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80"
+                            alt="Project 1" />
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" aria-label="Code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>Modern shopping experience with cart & payments.</p>
+                        <div class="tags">
+                            <span>React</span><span>Node</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
+                            alt="Project 2" />
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" aria-label="Code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Interactive data visualization dashboard UI.</p>
+                        <div class="tags">
+                            <span>JavaScript</span><span>Chart.js</span><span>CSS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80"
+                            alt="Project 3" />
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" aria-label="Code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>Drag-drop productivity tool with local storage.</p>
+                        <div class="tags">
+                            <span>React</span><span>Firebase</span><span>Tailwind</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80"
+                            alt="Project 4" />
+                        <div class="project-overlay">
+                            <a href="#" aria-label="Live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" aria-label="Code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive animated portfolio with dark mode.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-tag">Say hello</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="info-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>rahul@example.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Subject" required />
+                    </div>
+                    <div class="input-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">
+                <span>&lt;</span>Rahul<span>/&gt;</span>
+            </a>
+            <p>© 2025 Rahul Sharma. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js?v=21"></script>
+</body>
+
+</html>
